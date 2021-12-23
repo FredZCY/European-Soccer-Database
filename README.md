@@ -26,3 +26,22 @@ Our second focus area is realizing advanced GUI form interfaces. We implemented 
 with users, completing the queries related to soccer. Users will be first verified via their identification. Official staff have the right to make different modifications, “Insertion, Updation, Deletion”, of the match records, while unofficial staff can only have the right to view the related information of different tables like a certain Player or a certain Team, etc. All tables used here are under-processed instead of raw data downloaded from resources. In the end, users can also view the prediction result of a match between two teams or a combat between two players by inputting two objects’ names. The whole UI is based on Flask which is a light-weight micro web framework, making the UI website beautiful and fast-response.
 
 <img src="https://github.com/FredZCY/European_Soccer_Database/blob/9c169fe3f10ed7ee1d6affde3199630220664ca3/images/screen.png"/>
+
+## Contact the Author  
+
+***Special thanks*** :pray: for the advice from  
+
+*[Prof. David Yarowsky] (https://www.cs.jhu.edu/~yarowsky/) (Johns Hopkins University)*  
+
+also for the cooperation and joint efforts from my partner (Wenqian Xu) of this project.
+
+If you got any enquiries or suggestions, I'm all ears :sunglasses:  
+
+- **Institution:**  Johns Hopkins University  :mortar_board: Graduate 
+- **Personal E-mail:** zhangchenyu555@gmail.com   
+- **Academic E-mail:** czhan146@jhu.edu 
+- **Insterested Area:**
+
+  - [ ] Machine Learning   
+  - [ ] Data Analysis
+  - [ ] Business Analytics
