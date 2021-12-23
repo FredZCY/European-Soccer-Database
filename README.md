@@ -15,9 +15,9 @@ All codes are commented in detail. Once the user installed all needed packages a
 The second code file is user_interface.py, which performs data loading and builds our beautiful user interface to connect databases with users. We mainly used “Flask” inside Python to build the advanced GUI to complete multiple interactions between users and our databases.
 
 # Major/Minor Areas of Specialization:
-(1) Data Analysis and Data Mining:
+(1) Data Analysis and Data Mining:  
 We choose our first focus area to be data mining since it is one of the most popular topics nowadays. With our integrated soccer dataset, we measured the weighted ability of a player, a team and a league, as well as rank them in descending order. We also make match outcome prediction by taking advantage of several machine learning models including Logistic Regression, KNN Classifier, Random Forest Classifier, AdaBoost Classifier and Gaussian Naive Bayes Classifier. There are more than 30 features as data input, and we also perform Principal Components Analysis (PCA) to select more important features. We also compare our model with predictions made by betting odds, and our results turn out to give better accuracy.  
 
-(2) Advanced GUI form interface
+(2) Advanced GUI form interface:  
 Our second focus area is realizing advanced GUI form interfaces. We implemented a beautiful GUI to realize a series of interesting interactions
 with users, completing the queries related to soccer. Users will be first verified via their identification. Official staff have the right to make different modifications, “Insertion, Updation, Deletion”, of the match records, while unofficial staff can only have the right to view the related information of different tables like a certain Player or a certain Team, etc. All tables used here are under-processed instead of raw data downloaded from resources. In the end, users can also view the prediction result of a match between two teams or a combat between two players by inputting two objects’ names. The whole UI is based on Flask which is a light-weight micro web framework, making the UI website beautiful and fast-response.
