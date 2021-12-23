@@ -9,7 +9,7 @@ The main dataset named “European Soccer Database” we use in our project is f
 # Software Platform:
 Instead of MySQL, we decided to use Sqlite and Python with its rich packages. The reason we give up on MySQL is its restrictions and difficulties to perform data mining. Compared with MySQL, Sqlite is much less-weight and can be executed by Python directly due to the convenience of using built-in databases in Python and the similar SQL syntax. Using Sqlite in Python can bring more flexibility of using different useful functions and packages. For example, we have the chance to use sklearn to import machine learning models, seaborn & matplotlib to plot figures and perform data visualization, pandas to deal with complicated table operations as well as flask to build complex and beautiful web interfaces.
 
-User Guide:
+# User Guide:
 All codes are commented in detail. Once the user installed all needed packages and datasets, the code can be executed smoothly. There are mainly two code files to achieve two separate tasks: The first one is sql_data_mining.ipynb, which mainly performs data loading, data processing, database construction, sql queries, data visualization and data mining.  
 
 The second code file is user_interface.py, which performs data loading and builds our beautiful user interface to connect databases with users. We mainly used “Flask” inside Python to build the advanced GUI to complete multiple interactions between users and our databases.
